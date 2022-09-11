@@ -31,6 +31,7 @@ ff1.Cache.enable_cache('cache')
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "http://192.168.86.35:3000"
 ]
 
 app.add_middleware(
